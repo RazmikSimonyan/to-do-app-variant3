@@ -18,7 +18,7 @@ export const AddToDo = ({ toDo, deleteToDo, checked }) => {
 
           <button onClick={() => deleteToDo(item.id)} className="delete-btn">
             {/* ✖ */}
-            <FaDeleteLeft/>
+            <FaDeleteLeft />
           </button>
         </div>
       ))}
