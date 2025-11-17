@@ -11,7 +11,8 @@ export const ToDo = ({ state, toDoText, add, fetchTodos }) => {
       />
       <br />
       <button onClick={add}>Add a Task</button>
-      <button onClick={fetchTodos}>Generate Dummy Values from API</button>
+      {/* this part is not functioning properly, hence I had to delete it */}
+      {/* <button onClick={fetchTodos}>Generate Dummy Values from API</button> */}
     </div>
   );
 };
