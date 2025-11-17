@@ -1,5 +1,6 @@
 .todo-container {
   display: flex;
+  flex-direction: column;align-items: center;
   gap: 12px;
   margin-bottom: 25px;
 }
@@ -11,11 +12,12 @@
   border: 1px solid #ccc;
   font-size: 16px;
   outline: none;
+  width:600px;
   transition: all 0.2s;
 }
 
 .todo-container input:focus {
-  border-color: #4b8dff;
+  border-color: #a0af3c;
   box-shadow: 0 0 5px rgba(75, 141, 255, 0.5);
 }
 
@@ -23,13 +25,18 @@
   padding: 12px 18px;
   border-radius: 12px;
   border: none;
-  background-color: #4b8dff;
+  background-color: #f64bff;
   color: white;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s;
+  width:200px;
 }
 
 .todo-container button:hover {
   background-color: #1e6be2;
+}
+
+.list{
+  text-align: center;
 }

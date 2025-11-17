@@ -13,7 +13,7 @@ export const AddToDo = ({ toDo, deleteToDo, checked }) => {
 
           <span className={item.completed ? "done" : ""}>{item.text}</span>
 
-          {item.completed && <span className="marked-label">Լրացված է</span>}
+          {item.completed && <span className="marked-label">Completed</span>}
 
           <button onClick={() => deleteToDo(item.id)} className="delete-btn">
             ✖

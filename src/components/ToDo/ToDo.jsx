@@ -7,10 +7,11 @@ export const ToDo = ({ state, toDoText, add, fetchTodos }) => {
         type="text"
         value={state.text}
         onChange={toDoText}
-        placeholder="Մի լավ բան ..."
+        placeholder="i.e. watch a movie, be a lover of a married woman"
       />
-      <button onClick={add}>Գրանցիր</button>
-      <button onClick={fetchTodos}>API-ից բերել</button>
+      <br />
+      <button onClick={add}>Add a Task</button>
+      <button onClick={fetchTodos}>Generate Dummy Values from API</button>
     </div>
   );
 };
