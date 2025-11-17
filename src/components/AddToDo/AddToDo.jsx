@@ -1,4 +1,5 @@
 import "./AddToDo.css";
+import { FaDeleteLeft } from "react-icons/fa6";
 
 export const AddToDo = ({ toDo, deleteToDo, checked }) => {
   return (
@@ -13,12 +14,12 @@ export const AddToDo = ({ toDo, deleteToDo, checked }) => {
 
           <span className={item.completed ? "done" : ""}>{item.text}</span>
 
-          {item.completed && <span className="marked-label">Completed</span>}
+          {/* {item.completed && <span className="marked-label">Completed</span>} */}
 
           <button onClick={() => deleteToDo(item.id)} className="delete-btn">
-            ✖
+            {/* ✖ */}
+            <FaDeleteLeft/>
           </button>
-          
         </div>
       ))}
     </div>

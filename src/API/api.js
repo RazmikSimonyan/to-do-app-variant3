@@ -3,7 +3,7 @@ import axios from "axios";
 export const API = {
   getTodos(dispatch) {
     axios
-      .get("https://jsonplaceholder.typicode.com/todos?_limit=8")
+      .get("https://jsonplaceholder.typicode.com/todos?_limit=3")
       .then((res) =>
         dispatch({
           type: "async-todos",
