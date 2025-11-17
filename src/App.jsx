@@ -24,15 +24,19 @@ function App() {
 
   return (
     <div className="container">
-      <h1
+      <h2
         style={{
+          backgroundColor:'red',
+          color: 'white',
           textAlign: "center",
-          marginBottom: "20px",
-          color: "#000308ff",
+          margin: "10px",
+          padding:"15px",
+          textShadow: "2px 2px 3px gray",
+          fontSize: "2rem"
         }}
       >
-        Գրանցիր ինչ ուզում ես
-      </h1>
+        Please Insert Your Tasks
+      </h2>
 
       <ToDo
         state={state}
