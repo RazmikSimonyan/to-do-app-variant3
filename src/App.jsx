@@ -3,7 +3,7 @@ import "./App.css";
 import { initialState, reducer } from "./Store/Store";
 import { ToDo } from "./components/ToDo/ToDo";
 import { AddToDo } from "./components/AddToDo/AddToDo";
-import { API } from "./Api/api";
+import { API } from "./API/api";
 
 function App() {
   let [state, dispatch] = useReducer(reducer, initialState);
