@@ -1,0 +1,41 @@
+.todo-item input[type="checkbox"]:checked {
+  transform: scale(1.2);
+}
+
+.todo-item span {
+  margin-left: 12px;
+  font-size: 16px;
+  flex: 1;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.todo-item span.done {
+  text-decoration: line-through;
+  color: #4bb543;
+  font-weight: 600;
+}
+
+.marked-label {
+  font-size: 12px;
+  background: #d4f5d4;
+  color: #2e7d32;
+  padding: 2px 6px;
+  border-radius: 8px;
+  margin-left: 8px;
+  transition: all 0.3s;
+}
+
+.delete-btn {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.delete-btn:hover {
+  background: #e03e3e;
+}
